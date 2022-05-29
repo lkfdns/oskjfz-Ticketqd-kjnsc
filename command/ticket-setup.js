@@ -14,7 +14,7 @@ module.exports = {
 					.addOptions([
 						{
 							label: '📁 Partenariat',
-							description: "Ouvrez un ticket pour faire une demande de partenariat .",
+							description: 'Ouvrez un ticket pour faire une demande de partenariat .',
 							value: 'partenariat',
 						},
 						{
