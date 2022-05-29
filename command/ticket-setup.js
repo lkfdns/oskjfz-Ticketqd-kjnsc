@@ -11,7 +11,12 @@ module.exports = {
 				new MessageSelectMenu()
 					.setCustomId('select')
 					.setPlaceholder('Sélectionnez le type de ticket à créer.')
-					.addOptions([,
+					.addOptions([
+						{
+							label: '📁 Partenariat',
+							description: "Ouvrez un ticket si vous souhaitez faire une demande de partenariat !",
+							value: 'partenariat',
+						},
 						{
 							label: '📌 Aide/Question',
 							description: "Ouvrez un ticket si vous avez besoin d'aide ou d'un renseignement !",
